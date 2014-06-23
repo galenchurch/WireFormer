@@ -47,7 +47,7 @@ CREATE TABLE `bom` (
   PRIMARY KEY (`item`),
   KEY `item` (`item`),
   KEY `part` (`part`)
-) ENGINE=MyISAM AUTO_INCREMENT=33 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=35 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -88,6 +88,8 @@ INSERT INTO `bom` VALUES (29,NULL,NULL,NULL,'Conn, DB25, Female',1,'each',NULL,'
 INSERT INTO `bom` VALUES (30,NULL,NULL,NULL,'Conn, DB9, Female',1,'each',NULL,'TE','5-747905-7','Allied','70084893','http://www.alliedelec.com/search/productdetail.aspx?SKU=70084893',NULL,NULL,NULL,NULL,NULL,NULL,1,NULL);
 INSERT INTO `bom` VALUES (31,NULL,NULL,NULL,'Cable Gland, PG11',4,'each',NULL,'Lapp','S2111','Allied','70123697','http://www.alliedelec.com/search/productdetail.aspx?SKU=70123697#tab=overview',NULL,NULL,NULL,4.968,'purc','1.08,,,,',1,NULL);
 INSERT INTO `bom` VALUES (32,'SHEET01',NULL,NULL,'Knockout Panel',1,'each',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,NULL);
+INSERT INTO `bom` VALUES (33,NULL,NULL,NULL,'Cable, DB25, 10FT, M/F',1,'each',NULL,'L-COM`','CS2N25MF-10','Allied','70126163','http://www.alliedelec.com/search/productdetail.aspx?SKU=70126163#tab=specs',NULL,NULL,NULL,NULL,NULL,NULL,1,NULL);
+INSERT INTO `bom` VALUES (34,NULL,NULL,NULL,'Cable, DB9, 25FT, M/F',1,'each',NULL,'L-COM','CSM9MF-25','Allied','70126553','http://www.alliedelec.com/search/productdetail.aspx?SKU=70126553#tab=specs',NULL,'For Pendant',NULL,NULL,NULL,NULL,1,NULL);
 /*!40000 ALTER TABLE `bom` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -100,4 +102,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-06-20 20:20:37
+-- Dump completed on 2014-06-23 16:07:20
