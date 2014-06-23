@@ -47,7 +47,7 @@ CREATE TABLE `bom` (
   PRIMARY KEY (`item`),
   KEY `item` (`item`),
   KEY `part` (`part`)
-) ENGINE=MyISAM AUTO_INCREMENT=38 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=43 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -93,6 +93,11 @@ INSERT INTO `bom` VALUES (34,NULL,NULL,NULL,'Cable, DB9, 25FT, M/F',1,'each',NUL
 INSERT INTO `bom` VALUES (35,NULL,NULL,NULL,'Fuse, 3.15A, 5x20mm',3,'each',NULL,'Schurter','0034.3122','Allied','70159941','http://www.alliedelec.com/search/productdetail.aspx?SKU=70159941',NULL,NULL,NULL,NULL,NULL,NULL,1,NULL);
 INSERT INTO `bom` VALUES (36,NULL,NULL,NULL,'Bridge, TB, 10pos, Plug Type, UT Series',2,'each',NULL,'Phoenix Contact','3030213','Allied','70169236','http://www.alliedelec.com/search/productdetail.aspx?SKU=70169236',NULL,NULL,NULL,NULL,NULL,NULL,1,NULL);
 INSERT INTO `bom` VALUES (37,NULL,NULL,NULL,'SW, Green, PB, LED, 24V',1,'each',NULL,'IDEC','CW4P-1EQ4G','Allied','70234224','http://www.alliedelec.com/search/productdetail.aspx?SKU=70234224',NULL,NULL,NULL,NULL,NULL,NULL,1,NULL);
+INSERT INTO `bom` VALUES (38,NULL,NULL,NULL,'Heat Srink Tubing',1,'each',NULL,'McMaster-Carr','7496K21','McMaster-Carr','7496K21','http://www.mcmaster.com/#7496k21/=sjd84n',NULL,NULL,NULL,NULL,NULL,NULL,1,NULL);
+INSERT INTO `bom` VALUES (39,NULL,NULL,NULL,'Cable Ties, 4\" lg, 100pk',2,'each',NULL,'McMaster-Carr','7130K12','McMaster-Carr','7130K12','http://www.mcmaster.com/#7130k12/=sjdcip',NULL,NULL,NULL,NULL,NULL,NULL,1,NULL);
+INSERT INTO `bom` VALUES (40,NULL,NULL,NULL,'Cable Tie Holder, Screw and Adhesive, 50pk',1,'each',NULL,'McMaster-Carr','7566K25','McMaster-Carr','7566K25','http://www.mcmaster.com/#7566k25/=sjdbe6',NULL,NULL,NULL,NULL,NULL,NULL,1,NULL);
+INSERT INTO `bom` VALUES (41,NULL,NULL,NULL,'Wire Ferrule, 26-24 AWG, 0.31\" lg, Aqua',1,'each',NULL,NULL,NULL,'McMaster-Carr','7950K46','http://www.mcmaster.com/#7950k46/=sjddxg',NULL,NULL,NULL,NULL,NULL,NULL,1,NULL);
+INSERT INTO `bom` VALUES (42,NULL,NULL,NULL,'Ferrule, 22-20 AWG, Gray, 0.31\" lg, 100pk',1,'each',NULL,NULL,NULL,'McMaster-Carr','7950K15','http://www.mcmaster.com/#7950k15/=sjdep9',NULL,NULL,NULL,NULL,NULL,NULL,1,NULL);
 /*!40000 ALTER TABLE `bom` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -105,4 +110,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-06-23 21:20:13
+-- Dump completed on 2014-06-23 21:40:20
