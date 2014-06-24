@@ -47,7 +47,7 @@ CREATE TABLE `bom` (
   PRIMARY KEY (`item`),
   KEY `item` (`item`),
   KEY `part` (`part`)
-) ENGINE=MyISAM AUTO_INCREMENT=52 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=54 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -107,6 +107,8 @@ INSERT INTO `bom` VALUES (48,NULL,NULL,NULL,'BHCS, M4, 35mm, 18-8 SS, 25pk',1,'e
 INSERT INTO `bom` VALUES (49,NULL,NULL,NULL,'Hex Nut, M4, SS',1,'each',NULL,NULL,NULL,'McMaster-Carr','94150A335','http://www.mcmaster.com/#94150a335/=sjgpwk',NULL,NULL,NULL,NULL,NULL,NULL,1,NULL);
 INSERT INTO `bom` VALUES (50,NULL,NULL,NULL,'BHCS, M4, 12mm, SS',1,'each',NULL,NULL,NULL,'McMaster-Carr','94500A228','http://www.mcmaster.com/#94500a228/=sjgx68',NULL,NULL,NULL,NULL,NULL,NULL,1,NULL);
 INSERT INTO `bom` VALUES (51,NULL,NULL,NULL,'Hardware, DSUB, 4-40',2,'each',NULL,'TE','5205817-3','Allied','70043051','http://www.alliedelec.com/search/productdetail.aspx?SKU=70043051',NULL,NULL,NULL,NULL,NULL,NULL,1,NULL);
+INSERT INTO `bom` VALUES (52,NULL,NULL,NULL,'Ring Lug, 22-16AWG, 1/4 in',10,'each',NULL,'TE','31894','Allied','70084117','http://www.alliedelec.com/search/productdetail.aspx?SKU=70084117',NULL,NULL,NULL,NULL,NULL,NULL,1,NULL);
+INSERT INTO `bom` VALUES (53,NULL,NULL,NULL,'Bridge, 3POS',4,'each',NULL,'Phoenix Contact','3030174','Allied','70169233','http://www.alliedelec.com/search/productdetail.aspx?SKU=70169233',NULL,NULL,NULL,NULL,NULL,NULL,1,NULL);
 /*!40000 ALTER TABLE `bom` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -119,4 +121,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-06-24 13:25:15
+-- Dump completed on 2014-06-24 13:51:48
