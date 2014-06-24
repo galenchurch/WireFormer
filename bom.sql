@@ -47,7 +47,7 @@ CREATE TABLE `bom` (
   PRIMARY KEY (`item`),
   KEY `item` (`item`),
   KEY `part` (`part`)
-) ENGINE=MyISAM AUTO_INCREMENT=43 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=50 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -98,6 +98,13 @@ INSERT INTO `bom` VALUES (39,NULL,NULL,NULL,'Cable Ties, 4\" lg, 100pk',2,'each'
 INSERT INTO `bom` VALUES (40,NULL,NULL,NULL,'Cable Tie Holder, Screw and Adhesive, 50pk',1,'each',NULL,'McMaster-Carr','7566K25','McMaster-Carr','7566K25','http://www.mcmaster.com/#7566k25/=sjdbe6',NULL,NULL,NULL,NULL,NULL,NULL,1,NULL);
 INSERT INTO `bom` VALUES (41,NULL,NULL,NULL,'Wire Ferrule, 26-24 AWG, 0.31\" lg, Aqua',1,'each',NULL,NULL,NULL,'McMaster-Carr','7950K46','http://www.mcmaster.com/#7950k46/=sjddxg',NULL,NULL,NULL,NULL,NULL,NULL,1,NULL);
 INSERT INTO `bom` VALUES (42,NULL,NULL,NULL,'Ferrule, 22-20 AWG, Gray, 0.31\" lg, 100pk',1,'each',NULL,NULL,NULL,'McMaster-Carr','7950K15','http://www.mcmaster.com/#7950k15/=sjdep9',NULL,NULL,NULL,NULL,NULL,NULL,1,NULL);
+INSERT INTO `bom` VALUES (43,NULL,NULL,NULL,'BHCS, M6, 10mm, 18-8 SS, 50pk',1,'each',NULL,NULL,NULL,'McMaster-Carr','92095A224','http://www.mcmaster.com/#92095a224/=sjggli',NULL,'For Din rail, GND Lug',NULL,NULL,NULL,NULL,1,NULL);
+INSERT INTO `bom` VALUES (44,NULL,NULL,NULL,'Hex Nut, M6, 100pk',1,'each',NULL,NULL,NULL,'McMaster-Carr','91828A251','http://www.mcmaster.com/#91828a251/=sjgk79',NULL,NULL,NULL,NULL,NULL,NULL,1,NULL);
+INSERT INTO `bom` VALUES (45,NULL,NULL,NULL,'Washer, Star, M6, 100pk',1,'each',NULL,NULL,NULL,'McMaster-Carr','91120A160','http://www.mcmaster.com/#91120a160/=sjglbj',NULL,NULL,NULL,NULL,NULL,NULL,1,NULL);
+INSERT INTO `bom` VALUES (46,NULL,NULL,NULL,'Washer, Lock, M6',1,'each',NULL,NULL,NULL,'McMaster-Carr','91111A129','http://www.mcmaster.com/#91111a129/=sjgmn3',NULL,NULL,NULL,NULL,NULL,NULL,1,NULL);
+INSERT INTO `bom` VALUES (47,NULL,NULL,NULL,'Drill Bit, 6mm, B-G Oxide',1,'each',NULL,NULL,NULL,'McMaster-Carr','30565A283','http://www.mcmaster.com/#30565a283/=sjgnq2',NULL,NULL,NULL,NULL,NULL,NULL,1,NULL);
+INSERT INTO `bom` VALUES (48,NULL,NULL,NULL,'BHCS, M4, 35mm, 18-8 SS, 25pk',1,'each',NULL,NULL,NULL,'McMaster-Carr','92095A199','http://www.mcmaster.com/#92095a199/=sjgrnp',NULL,NULL,NULL,NULL,NULL,NULL,1,NULL);
+INSERT INTO `bom` VALUES (49,NULL,NULL,NULL,'Hex Nut, M4, SS',1,'each',NULL,NULL,NULL,'McMaster-Carr','94150A335','http://www.mcmaster.com/#94150a335/=sjgpwk',NULL,NULL,NULL,NULL,NULL,NULL,1,NULL);
 /*!40000 ALTER TABLE `bom` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -110,4 +117,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-06-23 21:40:20
+-- Dump completed on 2014-06-24  2:03:16
